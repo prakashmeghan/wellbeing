@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#0c1f35</color>
+    <!--<color name="colorPrimary">#205eb3</color>-->
+    <color name="colorPrimary">#0083bb</color>
+    <color name="colorAccent">@color/white</color>
+
+    <color name="blue_txt_color">#0080fe</color>
+    <color name="black_alm">#313230</color>
+    <color name="blue_navbar">#2591cd</color>
+    <color name="green_india">#22b728</color>
+    <color name="orange_india">@color/colorPrimary</color>
+    <color name="orange_dark_india">#ff7d1f</color>
+    <color name="orange_btn">@color/colorPrimary</color>
+    <color name="color_on_bg">@color/colorPrimary</color>
+    <color name="color_on_bg_with">@color/white</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="dark_very_gray">#616161</color>
+    <color name="dark_max_gray">#1f1f1f</color>
+    <color name="dark_gray">#767676</color>
+    <color name="gray">#929aa8</color>
+    <color name="light_gray">#d6d6d6</color>
+    <color name="light_gray_bg">#eceff1</color>
+    <color name="gray_icon">#a9a9a9</color>
+
+    <color name="semi_transparent_white">#BFffffff</color>
+
+    <color name="semi_transparent_black">#59000000</color>
+    <color name="full_transparent">#00555555</color>
+    <color name="full_transparent2">#00000000</color>
+    <color name="blue_fb">#3b5992</color>
+    <color name="red_google">#ed4a38</color>
+    <color name="green">#01bd18</color>
+
+    <color name="orange_new">#ff3d00</color>
+
+
+    <!--Old color scheme-->
+    <color name="colorPrimary_old">#ffb300</color>
+    <color name="colorPrimaryDark_old">#ff8400</color>
+    <color name="colorAccent_old">@color/orange_india</color>
+
+    <color name="green_india_old">#22b728</color>
+    <color name="orange_india_old">#ef7116</color>
+    <color name="orange_dark_india_old">#ff7d1f</color>
+    <color name="orange">#ff5722</color>
+    <color name="white_old">#ffffff</color>
+    <color name="black_old">#000000</color>
+
+    <color name="black_overlay_old">#66000000</color>
+    <color name="dark_very_gray_old">#616161</color>
+    <color name="dark_max_gray_old">#1f1f1f</color>
+    <color name="dark_gray_old">#767676</color>
+    <color name="gray_old">#929aa8</color>
+    <color name="light_gray_old">#d6d6d6</color>
+    <color name="light_gray_bg_old">#eceff1</color>
+    <color name="gray_icon_old">#a9a9a9</color>
+
+    <color name="semi_transparent_white_old">#BFffffff</color>
+
+    <color name="semi_transparent_black_old">#59000000</color>
+    <color name="full_transparent_old">#00000000</color>
+    <color name="blue_fb_old">#3b5992</color>
+    <color name="red_google_old">#ed4a38</color>
+
+    <color name="blue_navy">#0080ff</color>
+    <color name="dark_blue">#054399</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#FA0000</color>
+</resources>

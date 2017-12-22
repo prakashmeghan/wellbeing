@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_fav_like"
+        android:icon="@drawable/nav_fav_like"
+        android:title="@string/nav_like_fav" />
+
+    <item
+        android:id="@+id/nav_ideas"
+        android:icon="@drawable/nav_ideas"
+        android:title="@string/nav_ideas"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/nav_share"
+        android:title="@string/nav_share"
+        android:enabled="true"/>
+    <item
+        android:id="@+id/nav_to_do"
+        android:icon="@drawable/nav_to_do"
+        android:title="@string/nav_to_do" />
+
+    <item
+        android:id="@+id/nav_inspire_me"
+        android:icon="@drawable/nav_inspire_me"
+        android:title="@string/nav_inspire_me" />
+
+
+</menu>

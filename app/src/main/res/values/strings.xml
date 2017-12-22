@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">WellBeing</string>
+
+    <string name="nav_like_fav">Like/Fav</string>
+    <string name="nav_ideas">Ideas</string>
+    <string name="nav_to_do">To Do</string>
+    <string name="nav_inspire_me">Inspire Me</string>
+    <string name="nav_share">Share</string>
+
+    <string name="t_nav_app_map">App Map</string>
+    <string name="t_nav_profile">Profile</string>
+    <string name="t_nav_give">Give</string>
+    <string name="t_nav_my_wb">My WB</string>
+    <string name="t_nav_home">Home</string>
+
+    <string name="welcome_to">WELCOME TO</string>
+    <string name="wellbeing_tagline">Being well is basic right of human\nso WellBeing is there to help you!</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sign_in">@string/signin</string>
+    <string name="sign_in_up">Sign In OR Sign Up</string>
+
+    <string name="forgot_pwd">FORGOT PASSWORD?</string>
+    <string name="or">OR</string>
+    <string name="do_not_ac">Don\'t have an account?</string>
+    <string name="signup">SIGNUP NOW</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_ac">Already have an account?</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_old_pwd">Old password is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_invalid_password_upper">Password should contain one uppercase letter</string>
+    <string name="error_invalid_cnf_password_upper">Confirm Password should contain one uppercase letter</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_password_match">Password doesn\'t match confirm password.</string>
+    <string name="error_incorrect_uname">This user name is incorrect</string>
+    <string name="error_field_len">Field must be longer than 3 characters.</string>
+    <string name="error_pwd_len">Password must be longer than 6 characters.</string>
+    <string name="error_field_required">This field is required</string>
+
+    <string name="used_registeration">Which you used at\ntime of registration.</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="prompt_fname">First Name</string>
+    <string name="prompt_lname">Last Name</string>
+    <string name="prompt_desc">Description</string>
+    <string name="prompt_family_name">Family Name</string>
+    <string name="signup_btn">SIGN UP</string>
+    <string name="signin">Sign In</string>
+    <string name="signin_fb">Sign In With Facebook</string>
+    <string name="signin_google">Sign In With Google</string>
+
+    <string name="under_construction">Under Construction</string>
+    <string name="title_activity_signup">Sign up</string>
+    <string name="no_internet">Internet not working.</string>
+
+    <string name="home">Home</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="app_map">App Map</string>
+    <string name="profile">Profile</string>
+    <string name="give">Give</string>
+    <string name="my_wb">My WB</string>
+    <string name="like_fav">Like/Fav</string>
+    <string name="ideas">Ideas</string>
+    <string name="share">Share</string>
+    <string name="to_do">To Do</string>
+    <string name="inspire_me">Inspire Me</string>
+</resources>
