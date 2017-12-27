@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "754280121229",
+    "firebase_url": "https://wellbeing-145ab.firebaseio.com",
+    "project_id": "wellbeing-145ab",
+    "storage_bucket": "wellbeing-145ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754280121229:android:6e51597bfdda1ad2",
+        "android_client_info": {
+          "package_name": "com.conceptappsworld.wellbeing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754280121229-n63ru9850s6hrq0orp0q7gme4i1h6npt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.conceptappsworld.wellbeing",
+            "certificate_hash": "962d2ee8c37841e7ec4efc607734052891c73165"
+          }
+        },
+        {
+          "client_id": "754280121229-34781v1b0tnok0lco2j013v429crtruk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxg6QpJQm818PJV6e5hsApXYXLFgPrJes"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754280121229-34781v1b0tnok0lco2j013v429crtruk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

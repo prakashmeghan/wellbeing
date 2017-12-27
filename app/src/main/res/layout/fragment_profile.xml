@@ -4,12 +4,73 @@
     android:layout_height="match_parent"
     tools:context="com.conceptappsworld.wellbeing.fragment.ProfileFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/t_nav_profile"
-        android:gravity="center"
-        />
+        android:layout_margin="@dimen/margin_less">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_profile"
+                android:layout_width="@dimen/icon_size_70"
+                android:layout_height="@dimen/icon_size_70"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/iv_profile"
+                android:layout_toRightOf="@+id/iv_profile"
+                android:text="@string/name"
+                android:textSize="@dimen/text_size_general"
+                android:layout_marginLeft="@dimen/margin_less"
+                android:layout_marginStart="@dimen/margin_less"/>
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_name"
+                android:layout_toEndOf="@+id/iv_profile"
+                android:layout_toRightOf="@+id/iv_profile"
+                android:text="@string/prompt_email"
+                android:textSize="@dimen/text_size_general"
+                android:layout_marginLeft="@dimen/margin_less"
+                android:layout_marginStart="@dimen/margin_less"/>
+
+            <TextView
+                android:id="@+id/tv_mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_email"
+                android:layout_toEndOf="@+id/iv_profile"
+                android:layout_toRightOf="@+id/iv_profile"
+                android:text="@string/mobile"
+                android:textSize="@dimen/text_size_general"
+                android:layout_marginLeft="@dimen/margin_less"
+                android:layout_marginStart="@dimen/margin_less"/>
+
+            <TextView
+                android:id="@+id/tv_town"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_mobile"
+                android:layout_toEndOf="@+id/iv_profile"
+                android:layout_toRightOf="@+id/iv_profile"
+                android:text="@string/town"
+                android:textSize="@dimen/text_size_general"
+                android:layout_marginLeft="@dimen/margin_less"
+                android:layout_marginStart="@dimen/margin_less"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
 
 </FrameLayout>

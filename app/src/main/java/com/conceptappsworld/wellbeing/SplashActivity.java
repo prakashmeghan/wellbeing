@@ -5,14 +5,20 @@ import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.conceptappsworld.wellbeing.util.CommonUtil;
 import com.conceptappsworld.wellbeing.util.PrefsManager;
+import com.crashlytics.android.Crashlytics;
+import com.google.firebase.crash.FirebaseCrash;
+
+import io.fabric.sdk.android.Fabric;
 
 public class SplashActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -30,7 +36,24 @@ public class SplashActivity extends AppCompatActivity implements View.OnClickLis
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Fabric.with(this, new Crashlytics());
         setContentView(R.layout.activity_splash);
+
+        /*
+        FirebaseCrash.report(new Exception("Prakash"));
+        FirebaseCrash.report(new Exception("My first Android non-fatal error"));
+
+        Button crashButton = new Button(this);
+        crashButton.setText("Crash!");
+        crashButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Crashlytics.getInstance().crash(); // Force a crash
+            }
+        });
+        addContentView(crashButton,
+                new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
+                        ViewGroup.LayoutParams.WRAP_CONTENT));
+        */
 
         initObjects();
         findViewByIds();
@@ -45,6 +68,10 @@ public class SplashActivity extends AppCompatActivity implements View.OnClickLis
         }
 
         setClickListeners();
+    }
+
+    public void forceCrash(View view) {
+        throw new RuntimeException("This is a crash");
     }
 
     private void googleLogin() {

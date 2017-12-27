@@ -74,4 +74,8 @@
     <string name="share">Share</string>
     <string name="to_do">To Do</string>
     <string name="inspire_me">Inspire Me</string>
+
+    <string name="name">Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="town">Town</string>
 </resources>

@@ -79,6 +79,8 @@ public class Constants {
     public static final String NODE_FNAME = "fname";
 
     public static final String NODE_EMAIL = "email";
+    public static final String NODE_MOBILE = "mobile";
+    public static final String NODE_TOWN = "town";
 
     public static final String NODE_DESC = "description";
 
@@ -167,6 +169,9 @@ public class Constants {
     public static final String PREF_EMAIL = "email";
 
     public static final String PREF_PROFILE_PIC = "profile_pic";
+
+    public static final String PREF_MOBILE = "mobile";
+    public static final String PREF_TOWN = "town";
 
     public static final String PREF_FNAME = "fname";
 

@@ -5,7 +5,6 @@ import android.content.Context;
 import android.os.AsyncTask;
 import android.util.Log;
 
-
 import com.conceptappsworld.wellbeing.model.AsyncResponse;
 import com.conceptappsworld.wellbeing.util.Constants;
 import com.conceptappsworld.wellbeing.util.PrefsManager;
@@ -82,15 +81,17 @@ public class LoginAsyncTask extends AsyncTask<Void, Void, Boolean> {
 
         if (jsonStrLogin != null) {
             Log.i(TAG, "jsonStrLogin:" + jsonStrLogin);
-            try{
+            try {
                 jsonObjLogin = new JSONObject(jsonStrLogin);
                 error = jsonObjLogin.getBoolean(Constants.NODE_ERROR);
-                if(error){
+                if (error) {
                     resultMessage = jsonObjLogin.getString(Constants.NODE_MESSAGE);
-                }else{
+                } else {
                     String fName = jsonObjLogin.getString(Constants.NODE_FNAME);
                     String lName = jsonObjLogin.getString(Constants.NODE_LNAME);
                     String email = jsonObjLogin.getString(Constants.NODE_EMAIL);
+                    String mobile = jsonObjLogin.getString(Constants.NODE_MOBILE);
+                    String town = jsonObjLogin.getString(Constants.NODE_TOWN);
                     int userId = jsonObjLogin.getInt(Constants.NODE_USER_ID);
                     String profilePic = jsonObjLogin.getString(Constants.NODE_PROFILE_PIC);
                     int status = jsonObjLogin.getInt(Constants.NODE_STATUS);
@@ -118,12 +119,14 @@ public class LoginAsyncTask extends AsyncTask<Void, Void, Boolean> {
                     prefsManager.setPassword(mPassword);
                     prefsManager.setUserId(userId);
                     prefsManager.setEmail(email);
+                    prefsManager.setMobile(mobile);
+                    prefsManager.setTown(town);
                     prefsManager.setProfilePic(profilePic);
                     prefsManager.setStatus(status);
                     prefsManager.setCreatedAt(createdAt);
                 }
 
-            }catch (JSONException je){
+            } catch (JSONException je) {
                 Log.e(TAG, "je:" + je.getMessage());
             }
 
