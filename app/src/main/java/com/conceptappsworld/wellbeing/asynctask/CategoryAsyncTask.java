@@ -13,6 +13,7 @@ import com.conceptappsworld.wellbeing.webservice.WebServiceHandler;
 
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -79,15 +80,21 @@ public class CategoryAsyncTask extends AsyncTask<Void, Void, ArrayList<Category>
                 if (error) {
                     resultMessage = jsonObj.getString(Constants.NODE_MESSAGE);
                 } else {
-                    Category category = new Category();
+                    JSONArray arrCategories = jsonObj.getJSONArray(Constants.NODE_CATEGORIES);
 
-                    String categoryName = jsonObj.getString(Constants.NODE_CATEGORY_NAME);
-                    int categoryId = jsonObj.getInt(Constants.NODE_CATEGORY_ID);
+                    for (int i = 0; i < arrCategories.length(); i++) {
+                        JSONObject objCat = arrCategories.getJSONObject(i);
 
-                    category.setCategoryId(categoryId);
-                    category.setCategoryName(categoryName);
+                        Category category = new Category();
+                        String categoryName = objCat.getString(Constants.NODE_CATEGORY_NAME);
+                        int categoryId = objCat.getInt(Constants.NODE_CATEGORY_ID);
 
-                    alCats.add(category);
+                        category.setCategoryId(categoryId);
+                        category.setCategoryName(categoryName);
+
+                        alCats.add(category);
+                    }
+
                 }
 
             } catch (JSONException je) {

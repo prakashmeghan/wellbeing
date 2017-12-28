@@ -13,7 +13,7 @@ public class Constants {
 //    public static final String BASE_URL = "http://192.185.112.158/~wwwappw/";
 
 //    public static final String BASE_URL = "http://www.conceptappsworld.com/";
-    public static final String BASE_URL = "http://localhost/";
+    public static final String BASE_URL = "http://10.0.2.2/";
 
     public static final String UPLOAD_URL = BASE_URL + "projects/dreamtripgo/uploads/";
 
