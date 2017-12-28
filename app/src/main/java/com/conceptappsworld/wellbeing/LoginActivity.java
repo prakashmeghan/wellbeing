@@ -135,7 +135,11 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 finish();
                 break;
             case R.id.bt_login:
-                attemptLogin();
+//                attemptLogin();
+
+                finish();
+                Intent intentMain = new Intent(LoginActivity.this, MainActivity.class);
+                startActivity(intentMain);
                 break;
             case R.id.tv_forgot_pwd:
                 showDialog();

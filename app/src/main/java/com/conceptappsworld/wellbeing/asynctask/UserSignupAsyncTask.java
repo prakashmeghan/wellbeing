@@ -98,7 +98,7 @@ public class UserSignupAsyncTask extends AsyncTask<Void, Void, String> {
                     if(loginMethod == Constants.LOGIN_METHOD_FACEBOOK || loginMethod == Constants.LOGIN_METHOD_GOOGLE){
                         saveInSp(resultUserId);
                     }
-                    prefsManager.setUserId(resultUserId);
+                    saveInSp(resultUserId);
 
                     errorAndMSG = Constants.ERROR_STR_FALSE + ":" + resultMessage;
                 }else {

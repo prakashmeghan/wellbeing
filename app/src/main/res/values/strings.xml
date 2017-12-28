@@ -78,4 +78,9 @@
     <string name="name">Name</string>
     <string name="mobile">Mobile</string>
     <string name="town">Town</string>
+    <string name="category">Category</string>
+    <string name="error_message">
+        An error has occurred. Please try again Later.
+    </string>
+    <string name="internet_not_working">Internet is not working on this device.</string>
 </resources>

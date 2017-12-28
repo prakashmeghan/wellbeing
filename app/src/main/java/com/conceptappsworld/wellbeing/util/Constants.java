@@ -12,19 +12,23 @@ public class Constants {
 
 //    public static final String BASE_URL = "http://192.185.112.158/~wwwappw/";
 
-    public static final String BASE_URL = "http://www.conceptappsworld.com/";
+//    public static final String BASE_URL = "http://www.conceptappsworld.com/";
+    public static final String BASE_URL = "http://localhost/";
 
     public static final String UPLOAD_URL = BASE_URL + "projects/dreamtripgo/uploads/";
 
     public static final String UPLOAD_IMAGES_URL = BASE_URL + "projects/dreamtripgo/upload.php";
     //own
-    public static final String API_URL = BASE_URL + "projects/wellbeing/";
+//    public static final String API_URL = BASE_URL + "projects/wellbeing/";
+    public static final String API_URL = BASE_URL + "wellb/";
 
     public static final String API_URLV1 = API_URL + "v1/index.php/";
 
     public static final String URL_SIGN_UP = API_URLV1 + "register";
 
     public static final String URL_REGISTER_WELCOME = API_URLV1 + "register_welcome";
+
+    public static final String URL_CATEGORIES = API_URLV1 + "categories";
 
     public static final String URL_EDIT_PROFILE = API_URLV1 + "profile_edit";
 
@@ -73,6 +77,8 @@ public class Constants {
     public static final String URL_PROFILE_PIC = API_URLV1 + "profile_pic";
 
     public static final String NODE_MESSAGE = "message";
+
+    public static final String NODE_CATEGORIES = "categories";
 
     public static final String NODE_ERROR = "error";
 
